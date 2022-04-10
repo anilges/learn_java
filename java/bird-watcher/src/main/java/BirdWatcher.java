@@ -39,7 +39,7 @@ class BirdWatcher {
 
     public int getBusyDays() {
         int busyDays = 0;
-        for (int bPD: birdsPerDay) {
+        for (int bPD : birdsPerDay) {
             if (bPD >= 5) {
                 busyDays += 1;
             }
